@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.conatiner {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+}
+.coin-img {
+  height: 120px;
+}
+.heading {
+  color: #a35200;
+}
+.results {
+  display: flex;
+  justify-content: space-around;
+}
+.text {
+  margin: 5px;
+  color:#475569;
+}
+button{
+  background-color: #f9d423;
+  border: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #a35200;
+}
